@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>プログラミング技術Unity（-CatEscapeオリジナル作品-）</title>
+  <style>
+    .page {
+      margin-bottom: 20px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+    }
+    .iframe-container {
+      width: 100%;
+      height: 400px;
+      position: relative;
+      overflow: hidden;
+    }
+    .iframe-container iframe {
+      width: 200%; /* ウィンドウの幅を2倍に設定 */
+      height: 480px; /* ウィンドウの高さを固定 */
+      border: 1;
+      transform: scale(0.5); /* 表示を縮小 */
+      transform-origin: top left;
+    }
+    .iframe-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px;
+      margin-bottom: 100px;
+      cursor: pointer;
+    }
+  </style>
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      var iframeTitles = document.querySelectorAll('.iframe-title');
+      for (var i = 0; i < iframeTitles.length; i++) {
+        iframeTitles[i].addEventListener('click', openInNewWindow);
+      }
+      
+      function openInNewWindow() {
+        var iframe = this.previousElementSibling;
+        var url = iframe.getAttribute('src');
+        window.open(url, '_blank');
+      }
+    });
+  </script>
+</head>
+<body>
+  <h1>プログラミング技術Unity（-CatEscapeオリジナル作品-）</h1>
+
+  <div class="page">
+    <div class="grid-container">
+      <div class="iframe-container">
+        <iframe src="/CatEscapeImage/a3.png"></iframe>
+        <h2 class="iframe-title">a3池田</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.214/kimura/profile.html"></iframe>
+        <h2 class="iframe-title">kimura</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.214/asada/profile.html"></iframe>
+        <h2 class="iframe-title">asada</h2>
+      </div>
+      
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.214/uranishi/profile.html"></iframe>
+        <h2 class="iframe-title">uranishi</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.208/ozaki/profile.html"></iframe>
+        <h2 class="iframe-title">ozaki</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.208/horiuchi/profile.html"></iframe>
+        <h2 class="iframe-title">horiuchi</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.208/tsuruoka/profile.html"></iframe>
+        <h2 class="iframe-title">tsuruoka</h2>
+      </div>
+
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.208/kanou/profile.html"></iframe>
+        <h2 class="iframe-title">kanou</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.220/tojo/profile.html"></iframe>
+        <h2 class="iframe-title">tojo</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.220/sugimoto/profile.html"></iframe>
+        <h2 class="iframe-title">sugimoto</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.220/nakata/profile.html"></iframe>
+        <h2 class="iframe-title">nakata</h2>
+      </div>
+      
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.220/tada/profile.html"></iframe>
+        <h2 class="iframe-title">tada</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.217/maehara/profile.html"></iframe>
+        <h2 class="iframe-title">maehara</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.217/nakajima/profile.html"></iframe>
+        <h2 class="iframe-title">nakajima</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.217/ishiguro/profile.html"></iframe>
+        <h2 class="iframe-title">ishiguro</h2>
+      </div>
+      
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.217/okuda/profile.html"></iframe>
+        <h2 class="iframe-title">okuda</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.212/ishikawa/profile.html"></iframe>
+        <h2 class="iframe-title">ishikawa</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.212/ochi/profile.html"></iframe>
+        <h2 class="iframe-title">ochi</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.212/takahashi/profile.html"></iframe>
+        <h2 class="iframe-title">takahashi</h2>
+      </div>
+      
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.212/yamasaki/profile.html"></iframe>
+        <h2 class="iframe-title">yamasaki</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.145/hasegawa/profile.html"></iframe>
+        <h2 class="iframe-title">hasegawa</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.145/hoshikawa/profile.html"></iframe>
+        <h2 class="iframe-title">hoshikawa</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.145/masui/profile.html"></iframe>
+        <h2 class="iframe-title">masui</h2>
+      </div>
+      
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.145/hanamoto/profile.html"></iframe>
+        <h2 class="iframe-title">hanamoto</h2>
+      </div>
+      <div class="iframe-container">
+        <iframe src="http://10.223.4.145/ikeda/profile.html"></iframe>
+        <h2 class="iframe-title">ikeda</h2>
+      </div>
+    </div>
+</div>
+</body>
+</html>
